@@ -30,7 +30,7 @@ def main(dim, scale=1):
                 if event.button == 1:
                     set_sand = True
             if event.type == pg.MOUSEBUTTONUP:
-                if event.button == 0:
+                if event.button == 1:
                     set_sand = False
         screen.fill((0, 0, 0))
 
